@@ -85,7 +85,7 @@ int main (int argc, const char * argv[]) {
     [db executeUpdate:@"vacuum"];
     FMDBQuickCheck(![db hadError]);
     
-    exit(0);
+    //exit(0);
     
     // but of course, I don't bother checking the error codes below.
     // Bad programmer, no cookie.
